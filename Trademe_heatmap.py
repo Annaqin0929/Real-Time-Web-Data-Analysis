@@ -29,20 +29,20 @@ def main():
             root = etree.HTML(html)
             hrefs = ''.join(root.xpath('/html/body/tm-root/div[1]/main/div/tm-property-search-component/div/div[1]/tm-property-search-results/div/div[3]/tm-search-results/div/div[2]/tg-row/tg-col[3]/tm-search-card-switcher/tm-property-premium-listing-card/div/a/@href'))
 
-            # 输出结果
+            # output
             print(hrefs)
 
 if __name__ == '__main__':
     ua = UserAgent(verify_ssl=False)
 
-    #不顶用
+    # debug only
     #headers = {"User-Agent": ua.random}
 
-    #不顶用
+    # debug only
     # headers= {
     # "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",}
 
-    #顶用
+    #ok 
     headers = {
     'User-Agent': "Mozilla / 5.0(Windows NT 10.0;Win64;x64) AppleWebKit / 537.36(KHTML, likeGecko) Chrome / 96.0.4664 .93 Safari / 537.36",
     # "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
