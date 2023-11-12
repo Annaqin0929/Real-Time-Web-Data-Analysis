@@ -19,11 +19,11 @@ map, enhancing users’ overall rental market exploration experience.
 
 ### Project Phase
 
-### Phase I: Analyze the website URL, the path of key info, and the main python packages that need to be imported;
-### Phase II: Build the function/code framework and extract info from the website;
-### Phase III: Check data sets and proceed with functions of data wrangling;
-### Phase IV: Visualize the data, and output the analysis results;
-### Phase V: Generate project report
+#### Phase I: Analyze the website URL, the path of key info, and the main python packages that need to be imported;
+#### Phase II: Build the function/code framework and extract info from the website;
+#### Phase III: Check data sets and proceed with functions of data wrangling;
+#### Phase IV: Visualize the data, and output the analysis results;
+#### Phase V: Generate project report
 
 
 
